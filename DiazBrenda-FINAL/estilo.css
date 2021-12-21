@@ -1,0 +1,283 @@
+*{box-sizing: border-box;}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    }
+
+ p,ul,p {
+        font-family: 'Merriweather', serif;
+    }
+
+ h1 {
+     
+     list-style: none;
+     font-family: 'Fira Sans', sans-serif;
+     text-align: center
+ }
+
+ h1 {
+     font-size: 1.5em;
+ }
+
+a {
+    text-decoration: none;
+    outline: none;
+    }
+
+ul { 
+    list-style: none;
+    margin: 0;
+    padding: 2%;
+    }
+
+.contenedor {
+        width: 1320px;
+        margin: 0 auto;
+        padding: 0 15px;
+ }
+
+.navegacion {
+position: fixed;
+width: 100%;
+padding: 0;
+top: 0;
+left: 0;
+background: #FEDCD2;
+font-size: 1rem;
+height: 60px;
+}
+.navegacion ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navegacion ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navegacion ul li a {
+    color: #DF744A;
+}
+ 
+header {
+    margin: 0 auto;
+    padding: 55px;
+     background-color: #BFD8D2;
+     color: #DF744A} 
+
+
+#sobremi {
+    background-color: #efefef;
+    color: #DF744A; 
+}
+
+.brand {
+    text-align:center ;
+}
+
+.mi-perfil {
+    margin:0 auto ;
+    width:250px;
+    padding: 0;
+}
+
+#sobremi h2 {
+    text-align: center;
+}
+
+#sobremi article {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#portfolio {
+background-color: #FEDCD2;
+color: #DF744A;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio article {
+    width: 960px;
+    margin: 0 auto;
+    padding: 55px ;
+}
+
+#trabajos {
+    width: 960px;
+    margin: 0 auto;
+    padding: 55px ;
+}
+
+#servicios {
+text-align: center;
+background-color:#BFD8D2;
+color: #DF744A;
+}
+
+#servicios {
+    text-align: center;
+}
+
+#servicios article {
+    width: 960px;
+    margin: 0 auto;
+    padding: 155px
+}
+
+footer {
+    background-color: #efefef;
+    color: #DF744A;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+    
+}
+
+section
+{background-color: #BFD8D2;
+color: #DF744A;
+padding: 5px;}
+
+#info
+{display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+#info article {
+    width: 220px;
+    padding: 40px;
+    }
+
+#fotos {
+background-color: #BFD8D2;
+padding: 10px 0;
+}
+
+#fotos h2 , p {
+    text-align: center;
+}
+
+.Servicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+figcaption {
+    text-align: center;   
+}
+
+#sobremi {
+    background-color: #BFD8D2;
+    padding: 10px 0;
+    }
+    
+#sobremi h2 , p {
+        text-align: center;}
+
+.sobremi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hola {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hola .content {
+    flex: 1;
+    padding: 100px;
+    
+}
+
+#contactar {
+    background-color: #BFD8D2;
+    color: #DF744A;
+    padding: 2rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    margin: 1.25rem o .5rem 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family:  'Fira Sans', sans-serif;
+}
+
+input [type=text] {
+    border-style: none;
+}
+
+#nombres, #email, textarea {
+    display: block;
+    width: 100%;
+    padding: .45rem .6rem;
+    background-color: #fedcd2;
+    border-radius: .2rem;
+    color: #DF744A;
+    outline: none;
+    border-style: none;
+    transition: .2s ease-in;
+}
+
+#nombres:focus, #email:focus, textarea:focus {
+    color: #DF744A;
+    background-color: #efefef ;
+    transition: .3s ease-out;
+}
+
+button {
+    background-color: #DF744A;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    color: #BFD8D2 ;
+}
+
+button:hover{
+    color: #DF744A;
+    background-color: #efefef;
+}
+
+@media (min-width:992px) {
+    .contenedor{
+    width: 960px ;}
+}
+
+.campos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: baseline;
+}
+
+#nombres, #email, textarea{
+    width: 70%;
+}
+
+button{
+    margin-left: auto;
+    display: block;
+}
+
+
